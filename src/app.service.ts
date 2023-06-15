@@ -1,8 +1,10 @@
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
-export class AppService {
-  getHello(): string {
-    return 'Hello World!';
-  }
-}
+export class AppService {}
+
+
+// 1) Install Postgres on local machine localhost:5432
+
+// 2) Host Postgres with Docker
+
